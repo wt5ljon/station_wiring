@@ -26,6 +26,8 @@
 4. ALC (RCA connector) -> To Kenwood TS-570D 'REMOTE' connector
 5. 50VDC INPUT FROM ALS-600PS -> To Ameritron ALS-600 Power Supply
 
+***
+
 ### Linear Amplifier Power Supply (Ameritron ALS-600PS):
 1. LINE AC -> To 230 VAC outlet
 2. 50 VDC OUTPUT -> to Ameritron ALS-600 '50VDC INPUT FROM ALS-600PS'
@@ -34,7 +36,7 @@
 
 ### Linear Power Supply (Astron RS-35M):
 1. Power -> To 115 VAC outlet
-2. + Terminal (Top) / - Terminal (Bottom) -> To Kenwood TS-570D 'DC 13.8V DC' connector
+2. Pos. Terminal (Top) / Neg. Terminal (Bottom) -> To Kenwood TS-570D 'DC 13.8V DC' connector
 
 ***
 
