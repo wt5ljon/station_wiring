@@ -1,7 +1,7 @@
-WT5L Station Wiring
-===================
+# WT5L Station Wiring
 
-Transceiver (Kenwood TS-570D):
+
+### Transceiver (Kenwood TS-570D):
 1. DC 13.8 V (Power) -> To Astron RS-35M Power Supply output
 2. ANT 1 (Coax Patch Cable) -> To Ameritron ALS-600 'RF IN' connector
 3. ANT 2 (Coax Patch Cable) -> To Dummy Load
@@ -11,26 +11,34 @@ Transceiver (Kenwood TS-570D):
 7. ACC 2 (Custom cable) -> To RIGblaster Pro 'FSK OUT' connector
 8. REMOTE (Custom cable) -> To Ameritron ALS-600 'RELAY' and 'ALC' RCA connectors
 
-Antenna Tuner (Palstar AT1KM):
+***
+
+### Antenna Tuner (Palstar AT1KM):
 1. RF IN (Coax Patch Cable) -> To Ameritron ALS-600 'RF OUT' connector
 2. COAX 1 (TX/RX Coax - Large Diameter) -> To Antenna
 
-Linear Amplifier (Ameritron ALS-600):
+***
+
+### Linear Amplifier (Ameritron ALS-600):
 1. RF OUT (Coax Patch Cable) -> To Palstar AT1KM 'RF IN' connector
 2. RF IN (Coax Patch Cable) -> To Kenwood TS-570D 'ANT 1' connector 
 3. RELAY (RCA connector) -> To Kenwood TS-570D 'REMOTE' connector
 4. ALC (RCA connector) -> To Kenwood TS-570D 'REMOTE' connector
 5. 50VDC INPUT FROM ALS-600PS -> To Ameritron ALS-600 Power Supply
 
-Linear Amplifier Power Supply (Ameritron ALS-600PS):
+### Linear Amplifier Power Supply (Ameritron ALS-600PS):
 1. LINE AC -> To 230 VAC outlet
 2. 50 VDC OUTPUT -> to Ameritron ALS-600 '50VDC INPUT FROM ALS-600PS'
 
-Linear Power Supply (Astron RS-35M):
+***
+
+### Linear Power Supply (Astron RS-35M):
 1. Power -> To 115 VAC outlet
 2. + Terminal (Top) / - Terminal (Bottom) -> To Kenwood TS-570D 'DC 13.8V DC' connector
 
-Computer Interface (West Mountain Radio RIGblaster Pro):
+***
+
+### Computer Interface (West Mountain Radio RIGblaster Pro):
 1. POWER 12VDC -> To 115 VAC outlet
 2. SERIAL/COM RS-232 INPUT B -> No Connection
 3. SERIAL/COM RS-232 INPUT A -> To Dual USB-Serial Adapter
@@ -49,7 +57,9 @@ Computer Interface (West Mountain Radio RIGblaster Pro):
 16. MICROPHONE CONNECTOR (Front Panel) -> To hand-held microphone
 17. HEADPHONE (Front Panel) -> To headphones
 
-Dual Serial-to-USB Adapter:
+***
+
+### Dual Serial-to-USB Adapter:
 1. USB 1 -> To Kenwood TS-570D 'COM' connector
 2. USB 2 -> To RIGblaster Pro 'SERIAL/COM RS232 INPUT A'
 3. USB OUT -> To computer USB input
