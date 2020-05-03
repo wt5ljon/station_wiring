@@ -6,10 +6,14 @@
 2. ANT 1 (Coax Patch Cable) -> To Ameritron ALS-600 'RF IN' connector
 3. ANT 2 (Coax Patch Cable) -> To Dummy Load
 4. PADDLE -> To Bencher Iambic Paddle
+          -> No Connect (if using Ultra Picokeyer)
 5. KEY (1/8 inch stereo mini plug patch cord) -> To RIGblaster Pro 'CW OUT' connector
+                                              -> To Ultra PicoKeyer 'Output' connector
 6. COM -> To Dual USB-Serial Adapter
 7. ACC 2 (Custom cable) -> To RIGblaster Pro 'FSK OUT' connector
 8. REMOTE (Custom cable) -> To Ameritron ALS-600 'RELAY' and 'ALC' RCA connectors
+9. PHONES (Front Panel) -> To RIGBlaster Pro 'Audio In' connector
+10. MIC (Front Panel) -> To RIGBlaster Pro 'MIC Out' connector
 
 ***
 
@@ -61,7 +65,31 @@
 
 ***
 
-### Dual Serial-to-USB Adapter:
+#Dual Serial-to-USB Adapter:
 1. USB 1 -> To Kenwood TS-570D 'COM' connector
+            (usually COM3 on Windows & /dev/ttyUSB0 on linux)
 2. USB 2 -> To RIGblaster Pro 'SERIAL/COM RS232 INPUT A'
+            (usually COM4 on Windows & /dev/ttyUSB1 on linux)
 3. USB OUT -> To computer USB input
+
+***
+
+#Miscellaneous Notes:
+1. Linux Sound Card Setup:
+    -> CARD: HDA Intel PCH
+    -> CHIP: Realtek ALC662 rev3
+    -> Master Slider: Not Muted
+    -> Headphones Slider: Not Muted
+    -> Front Slider: Not Muted
+    -> LoopBack: Enabled
+    -> Rear Mic Slider: Not Muted and low level (~34)
+2. TS-570D Remote Control Settings:
+    -> Baud: 9600
+    -> Data Bits: 8
+    -> Stop Bits: 1
+    -> Parity: None
+    -> Tx: 1
+3. Computer CW & PTT Control Settings:
+    -> DTR: CW
+    -> RTS: PTT
+    -> Tx: 1
