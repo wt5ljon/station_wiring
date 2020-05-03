@@ -65,7 +65,7 @@
 
 ***
 
-#Dual Serial-to-USB Adapter:
+### Dual Serial-to-USB Adapter:
 1. USB 1 -> To Kenwood TS-570D 'COM' connector
             (usually COM3 on Windows & /dev/ttyUSB0 on linux)
 2. USB 2 -> To RIGblaster Pro 'SERIAL/COM RS232 INPUT A'
@@ -74,7 +74,7 @@
 
 ***
 
-#Miscellaneous Notes:
+### Miscellaneous Notes:
 1. Linux Sound Card Setup:
     -> CARD: HDA Intel PCH
     -> CHIP: Realtek ALC662 rev3
